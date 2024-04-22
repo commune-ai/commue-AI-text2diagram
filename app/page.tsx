@@ -181,10 +181,6 @@ export default function IndexPage() {
             <RocketLaunchIcon className="h-4 w-4" />
             <AlertTitle>A knowledge graph offers a non-linear structure to information. Helpful for learning and understanding.</AlertTitle>
           </Alert>
-          <div className='text-xs pb-3'>
-            <p>This project was inspired by <a href="https://twitter.com/yoheinakajima" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">@yoheinakajima</a> creator of <a href="https://instagraph.ai" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">instagraph.ai</a>. <a href="https://twitter.com/yoheinakajima/status/1706848028014068118" target="_blank" rel="noopener noreferrer" className=" text-blue-400"><sup>[EX1]</sup></a> <a href="https://twitter.com/yoheinakajima/status/1701351068817301922" target="_blank" rel="noopener noreferrer" className="text-blue-400"><sup>[EX2]</sup></a></p>
-            <p>If you have any questions or suggestions, reach out via <a href="https://twitter.com/waseemhnyc" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">Twitter</a> or <a href="https://tally.so#tally-open=mY0676&tally-layout=modal&tally-width=1000&tally-emoji-text=👋&tally-emoji-animation=wave&tally-auto-close=0" className="underline text-blue-400">here</a>. </p> 
-          </div>
         <div className="text-sm font-semibold tracking-tight">
           Search:
         </div>
@@ -192,7 +188,7 @@ export default function IndexPage() {
           <form className='flex flex-col' onSubmit={handleSubmit}>
           <Input
               type="text"
-              placeholder="Enter your search term here"
+              placeholder="Enter your idea"
               className="mr-2 md:mr-6 w-full"
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}

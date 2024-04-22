@@ -1,14 +1,14 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "InstaGraph",
-  subName: "built with Next JS and FastAPI",
+  name: "TextGraph Pro",
+  subName: "",
   description:
-    "Converts text input or URL into knowledge graph and displays.",
+    "Create an AI Generated Knowledge Graph!",
   mainNav: [],
   links: {
-    twitter: "https://twitter.com/waseemhnyc",
-    github: "https://github.com/waseemhnyc/instagraph-nextjs",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/",
+    github: "https://github.com/",
+    docs: "https://",
   },
 }
