@@ -1,74 +1,8 @@
-# InstaGraph 🌐 Next JS and FastAPI
+# This is Graph 🌐 Next JS and FastAPI
 
-Original project and inspiration: [<a href="https://twitter.com/yoheinakajima">Yohei Nakajima</a>](https://twitter.com/yoheinakajima) - [<a href="https://github.com/yoheinakajima/instagraph">Instagraph</a>](https://github.com/yoheinakajima/instagraph)
 
-Even though I love working with Python apps (previous Django developer), modern frontend technologies like NextJS (and Tailwind CSS, Shadcn etc) enable you to move faster. Also with the popularity of LLMs, streaming and server-sent-endpoints have become more important in AI products. FastAPI is perfect for building backends to support this.
+Text2Graph transforms written paragraphs into visually appealing graph structures, enabling users to explore ideas presented in the text more intuitively. By leveraging advanced natural language processing techniques, this web application delivers interactive diagrams generated from user inputs, enhancing comprehension while adding an engaging visual element to traditional linear reading experiences.
 
-![Demo](demo.gif)
+With support for both local deployment via Next.js frontend framework and remote server access utilizing FastAPI backend architecture, Text2Graph provides flexibility and scalability for various applications. Users benefit from fast rendering speeds, streamlined navigation, and contextual connections between concepts represented in the source material.
 
-[<a href="https://tally.so/r/mY0676">Sign up for updates and more information about the deployed app.</a>]((https://tally.so/r/mY0676))
-
-Project made with:
-- [<a href="https://twitter.com/shadcn">Shadcn</a>](https://twitter.com/shadcn) - [<a href="https://github.com/shadcn/next-template">Next JS Template</a>](https://github.com/shadcn/next-template)
-- [<a href="https://reactflow.dev/">React Flow</a>](https://reactflow.dev/)
-
-## Installation 🛠️
-
-1. Clone the repository
-```bash
-git clone https://github.com/waseemhnyc/instagraph-nextjs-fastapi.git
-```
-2. Navigate to the project directory
-```bash
-cd instagraph-nextjs-fastapi
-```
-3. Install packages
-```bash
-yarn
-```
-4. Set environment variables
-```bash
-OPENAI_API_KEY=your-api-key-here
-```
-5. Run Next JS app
-```bash
-yarn run dev
-```
-
-Now that the frontend is working, it's time to get the backend up and running.
-
-6. Move into the `api` directory, create a virutalenv and source the environment
-
-```bash
-cd api/
-python3 -m venv venv
-source venv/bin/activate
-```
-
-7. Install libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-8. Create a .env file and input your OpenAI API Key in the file
-
-```bash
-cp .env.example .env
-```
-
-9. Run local server
-```bash
-uvicorn main:app --host 0.0.0.0
-```
-
-## Usage 🎉
-
-Web Interface
-- Open your web browser and navigate to `http://localhost:3000/`.
-- Type your text in the input box.
-- Click "Submit" and wait for the magic to happen!
-
-## License 📝
-
-MIT License. See LICENSE for more information.
+Whether studying complex topics, brainstorming creative ideas, organizing research findings, or simply seeking a fresh approach towards understanding lengthier texts, Text2Graph offers an innovative solution tailored to modern learning styles. Explore the power of connecting words and ideas effortlessly with this dynamic tool designed to elevate the reader experience beyond conventional boundaries.
