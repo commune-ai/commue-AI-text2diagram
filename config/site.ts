@@ -1,10 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "TextGraph Pro",
+  name: "Commune AI TextDiagram Pro",
   subName: "",
-  description:
-    "Create an AI Generated Knowledge Graph!",
+  description: "Create an AI Generated Knowledge Diagram!",
   mainNav: [],
   links: {
     twitter: "https://twitter.com/",

@@ -1,15 +1,15 @@
 "use client"
-import { useState } from 'react';
-import { close, logo, menu } from "@/public/assets";
-import { navLinks } from "@/constants";
-import Image from 'next/image';
+
+import { useState } from "react"
+import Image from "next/image"
+import { close, logo, menu } from "@/public/assets"
 
 const Navbar: React.FC = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false)
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <Image src={logo} alt="HooBank" width={124} height={32} /> */}
-      <p className = 'text-white text-4xl'>TextGraph Pro</p> 
+      <p className="text-white text-4xl">Commune AI TextDiagram Pro</p>
       {/* <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
