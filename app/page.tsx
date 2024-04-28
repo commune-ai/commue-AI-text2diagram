@@ -311,7 +311,7 @@ export default function IndexPage() {
                     onInit={onInit}
                     fitView
                   >
-                    <DownloadButton disabled={loading || nodes.length <= 1}/>
+                    {/* <DownloadButton disabled={loading || nodes.length <= 1}/> */}
                     <Controls position={"top-right"}/>
                     <MiniMap nodeStrokeWidth={3} zoomable pannable />
                     <Background variant={BackgroundVariant.Lines} gap={15} size={1} />
